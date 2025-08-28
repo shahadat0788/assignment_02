@@ -90,3 +90,13 @@
     background-image: url(../assets/news-letter-bg.png);
     
 }
+
+@media screen and (max-width:667px) {
+    .image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .text-last-item, .text-item{
+        width: 361px;
+        height: 184px;
+        flex-direction: column;
+    }
+
+    
+}
